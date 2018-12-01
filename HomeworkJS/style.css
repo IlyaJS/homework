@@ -1,0 +1,14 @@
+body {
+    position: absolute;
+    left: 550px;
+    top: 250px;
+}
+.container {
+    display: flex;
+    background-color:  pink;
+    width: 500px;
+    height: 200px;
+    align-items: center;
+    justify-content: space-around;
+    
+}

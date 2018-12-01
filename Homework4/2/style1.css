@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around; 
+    width: 800px;
+    height: 130px;
+}
+.container_next {
+    display: flex; 
+    width: 800px;
+    height: 130px;
+}
+
+.block1,
+.block2,
+.block3,
+.block4,
+.block5,
+.block6,
+.block7,
+.block8 {
+    background-color: yellow;
+    margin: 5px;
+    flex-grow: 1; 
+}
+.less1 {
+    background-color: green;
+    /* flex-grow: 1;  */
+}
+.less9 {
+    background-color: green;
+    flex-grow: 1;
+    margin: 5px; 
+}

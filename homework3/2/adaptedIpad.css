@@ -1,0 +1,44 @@
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+    #block_1{
+       position: relative;
+       height: 120px;
+       width: 49%;
+       background-color: orange;
+    }
+    #block_2{
+        background-color: purple;
+        position: relative;
+        height: 120px;
+        width: 49%;
+        float: right;
+        top: -120px;
+    }
+    #block_containerC{
+        margin-right: 0.5%;
+        position: relative;
+        top: 30px;
+        height: 320px;
+        background-color: red;
+    }
+    #block_footer3{
+        visibility: hidden;
+        display: none;
+    }
+
+    #block_footer1{
+        position: relative;
+        height: 200px;
+        width: 49%;
+        top: 45px;
+        float: left;
+        background-color: green;
+    }
+    #block_footer2{
+        position: relative;
+        height: 200px;
+        width: 49%;
+        top: 45px;
+        float: right;
+        background-color: blue;
+    }    
+}

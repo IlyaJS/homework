@@ -1,0 +1,31 @@
+@media screen and (max-width: 800px){
+	.container_picture .picture{
+		width: 45%;
+		height: 300px;
+	}
+	.picture img{
+		position: relative;
+		border-radius: 50%;
+		transform: scaleY(0.9);
+		align-items: center;
+		width: 190px;
+		height: 190px;
+		border:2px solid #aeb6b9;
+		left: 50%;
+		margin-left: -85px;
+	}
+	.container_header{
+		height: 70px;
+	}
+	.less1 p{
+		margin-top: 25px;
+	}
+	.block_footer{
+		height: 70px;
+		position: fixed;
+		bottom: 0;
+	}
+	.block_footer p{    
+		padding-top: 3px;
+	}
+}

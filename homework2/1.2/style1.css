@@ -1,0 +1,25 @@
+* {	
+	margin: 0;
+	padding: 0;
+	
+}
+table {
+	width: 100%;
+}
+
+.row1 {
+	background-color: aqua;
+	height: 100px;
+}
+.row2  {
+	background-color: lime;
+	height: 250px;
+}
+.row3  {
+	background-color: yellow;
+	height: 200px;
+}
+.row4  {
+	height: 100px;
+	background-color: mediumblue;
+}

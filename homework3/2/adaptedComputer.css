@@ -1,0 +1,45 @@
+@import url(adaptedIpad.css) screen and (min-width: 768px) and (max-width: 980px);
+@import url(adaptedIphone.css) screen and  (min-width: 375px) and (max-height: 740px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2); 
+
+@media only screen and (min-width: 1024px) { 
+.block_header1, .block_header2{
+    height: 120px;
+    margin: 0% 0.5% 1% 0.5%;  
+    float: left;   
+}
+.block_header1{
+    background-color: red;
+    width: 31%;
+}
+.block_header2{
+    background-color: orange;
+    width: 67%;
+}
+.block_container{
+    float: left;
+    clear: both;
+    background-color: green;
+    height: 370px;
+    width: 99%;
+    margin-left: 0.5%;
+    margin-top: 1%;
+    margin-bottom: 0.5%;
+}
+.block_footer1, .block_footer2, .block_footer3{
+    float: left;
+    width: 32.33%;
+    height: 200px;
+    margin-top: 0.9%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+.block_footer1{
+    background-color: sienna;
+}
+.block_footer2{
+    background-color: blue;
+}
+.block_footer3{
+    background-color: darkmagenta;
+}
+}

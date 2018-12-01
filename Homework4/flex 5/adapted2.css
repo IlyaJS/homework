@@ -1,0 +1,15 @@
+@media screen and (max-width: 550px){
+	.container_picture .picture{
+		width: 80%;
+		height: 210px;
+	}
+	.container_picture{
+		justify-content: space-around;
+	}
+	.block_footer{
+        position: static;
+    }
+    .block_footer p{    
+		padding-top: 20px;
+	}
+}

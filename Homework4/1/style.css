@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: aqua;
+    width: 700px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.less1 {
+    align-self: flex-end;
+    background-color: yellow;
+    width: 80px;
+    height: 80px;
+}
+.less2 {
+    align-self: center;
+    background-color: yellow;
+    width: 80px;
+    height: 80px;
+}
+.less3 {
+    background-color: yellow;
+    width: 80px;
+    height: 80px;
+}
+.less4 {
+    align-self: center;
+    background-color: yellow;
+    width: 80px;
+    height: 80px;
+}
+.less5 {
+    align-self: flex-end;
+    background-color: yellow;
+    width: 80px;
+    height: 80px;
+}
